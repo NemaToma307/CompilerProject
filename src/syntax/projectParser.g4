@@ -102,13 +102,9 @@ conditions : ID SINGLS NUM OR  ID SINGLS NUM   #conditions_withOR_NUM_NUM
            ;
 
 
-//condition : conditions OR conditions   #conditions_withOR
-//           | conditions AND conditions  #conditions_withAND
-//           | ID SINGLS NUM              #conditions_withNUM
-//           | ID SINGLS ID               #conditions_withID
-//           ;
 
 doWhilestatement: DO CURLELEFT input CURLERIGHT whilestatemen               #while_State
+                | DO CURLELEFT input CURLERIGHT whilestatemen               #while_Statee
                 ;
 
 
