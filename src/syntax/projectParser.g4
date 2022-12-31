@@ -141,7 +141,7 @@ functionStatement : VOID   ID HLEFT HRIGHT CURLELEFT input CURLERIGHT   #void_Fu
                   | DOUBLE ID HLEFT HRIGHT CURLELEFT input returnStatement SEMECOLON CURLERIGHT   #double_Function_Return_NoARG
                   | FLOAT  ID HLEFT HRIGHT CURLELEFT input returnStatement SEMECOLON CURLERIGHT   #float_Function_Return_NoARG
 
-  /*  function type WITHOUT return " arg" */
+  /*  function type WITHOUT return " argh" */
 
                   | VOID   ID HLEFT argumentFunctionType HRIGHT CURLELEFT input CURLERIGHT   #void_Function_ARG
                   | STRING ID HLEFT argumentFunctionType HRIGHT CURLELEFT input CURLERIGHT   #string_Function_ARG
