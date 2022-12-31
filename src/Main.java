@@ -23,7 +23,7 @@ public class Main {
             Program prog = (Program) programVisitor.visit(dartAST);
 
             System.out.println(prog);
-            System.out.println("hiiii");
+            System.out.println("hiiii people");
 
         } catch (IOException e) {
             throw new RuntimeException(e);
