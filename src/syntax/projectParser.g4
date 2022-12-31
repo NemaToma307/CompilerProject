@@ -130,10 +130,10 @@ functionStatement : VOID   ID HLEFT HRIGHT CURLELEFT input CURLERIGHT   #void_Fu
                   | INT    ID HLEFT HRIGHT CURLELEFT input CURLERIGHT   #int_Function_NoARG
                   | DOUBLE ID HLEFT HRIGHT CURLELEFT input CURLERIGHT   #double_Function_NoARG
                   | FLOAT  ID HLEFT HRIGHT CURLELEFT input CURLERIGHT   #float_Function_NoARG
-  /*  function type WITHOUT return "NO arg" */
 
 
-  /*  function type WITH return "NO arg" */
+
+
 
                   | VOID   ID HLEFT HRIGHT CURLELEFT input returnStatement SEMECOLON CURLERIGHT   #void_Function_Return_NoARG
                   | INT    ID HLEFT HRIGHT CURLELEFT input returnStatement SEMECOLON CURLERIGHT   #int_Function_Return_NoARG
